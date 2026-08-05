@@ -1,3 +1,3 @@
 # Studying Dafny
 
-A repository for personal studies of [dafny](https://dafny.org).
+A repository for personal studies of [Dafny](https://dafny.org).
