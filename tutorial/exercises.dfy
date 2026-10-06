@@ -1,5 +1,7 @@
 // Exercises suggested by the tutorial and solved here
 
+
+// Exercise 0
 method Max(a: int, b: int) returns (c: int) 
     ensures a >= b ==> c == a
     ensures b >= a ==> c == b
@@ -10,6 +12,8 @@ method Max(a: int, b: int) returns (c: int)
     return b;
 }
 
+
+// Exercise 2
 method Abs(x: int) returns (y: int)
     requires x < 0
     ensures 0 <= y
@@ -19,6 +23,8 @@ method Abs(x: int) returns (y: int)
     return -x;
 }
 
+
+// Exercise 3
 method Abs2(x: int) returns (y: int)
     requires x == -1
     ensures 0 <= y
@@ -28,6 +34,8 @@ method Abs2(x: int) returns (y: int)
     y := x + 2;
 }
 
+
+// Exercise 3
 method Abs3(x: int) returns (y: int)
     // No precodition can make this verify
     requires false
@@ -37,6 +45,7 @@ method Abs3(x: int) returns (y: int)
 {
     y := x + 1;
 }
+
 
 method Testing()
 {

@@ -22,12 +22,12 @@ method MultipleReturns(x: int, y: int) returns (less: int, more: int)
 
 method Testing()
 {
-    var v := Abs(-3);
-    assert v == 3;
+    var a := Abs(-3);
+    assert a == 3;
 
     var b := Abs(3);
-    assert v == 3;
+    assert b == 3;
 
-    var a := Abs(0);
-    assert v == 0; // ?
+    var c := Abs(0);
+    assert c == 0;
 }
