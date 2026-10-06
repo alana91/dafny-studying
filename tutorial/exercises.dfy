@@ -1,6 +1,6 @@
 // Exercises suggested by the tutorial and solved here
 
-
+// Methods and assertions
 // Exercise 0
 method Max(a: int, b: int) returns (c: int) 
     ensures a >= b ==> c == a
@@ -45,6 +45,10 @@ method Abs3(x: int) returns (y: int)
 {
     y := x + 1;
 }
+
+
+// Functions
+
 
 
 method Testing()

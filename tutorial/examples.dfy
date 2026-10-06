@@ -1,5 +1,6 @@
 // Examples copied manually from the tutorial, to exercise memory. Some are expanded beyond copying. 
 
+// Methods and assertions
 method Abs(x: int) returns (y: int)
     ensures 0 <= y
     ensures 0 <= x ==> y == x
@@ -19,6 +20,7 @@ method MultipleReturns(x: int, y: int) returns (less: int, more: int)
     more := x + y;
     less := x - y;
 }
+
 
 method Testing()
 {
